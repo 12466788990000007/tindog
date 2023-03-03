@@ -1,0 +1,128 @@
+.container-fluid{
+    padding:3% 15%;
+}
+.colored-section{
+    background-color:#ff4c68;
+    color: #ffff;
+}
+.white-section{
+    background-color: white;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.navbar-brand{
+    font-size: 2rem; 
+}
+.navbar{
+    padding:0 0 4.5rem ;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-button{
+    margin:5% 5% 5% 0;
+}
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:20%
+}
+#features{
+    position:relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.feature-box{
+    padding:4.5%
+}
+/* headings */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+.icon{
+    color:#ef8172;
+    padding:5%;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+/* testimonial-section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+} 
+#press{
+    background-color: #ef8172;
+    padding:3%;
+}
+.images{
+    width:15%;
+    margin:20px 20px 50px;
+}
+/* pricing-section */
+.payment {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+  }
+#pricing{
+    padding:100px;
+}
+.pricing-column{
+    padding:3% 2%
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+        width:60%;
+    }
+}
+/* cta-section */
+.footer-image{
+    padding:1.5%;
+}
+.footer-image:hover{
+    color:#8f8f8f
+}
